@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             version="2.0">
+    <persistence-unit name="MachiKoro"
+                      transaction-type="RESOURCE_LOCAL">
+        <class>com.company.machikoro.entity.Card</class>
+        <class>com.company.machikoro.entity.BlueCard</class>
+        <class>com.company.machikoro.entity.Player</class>
+        <class>com.company.machikoro.entity.Game</class>
+        <class>com.company.machikoro.entity.GreenCard</class>
+        <class>com.company.machikoro.entity.RedCard</class>
+        <class>com.company.machikoro.entity.PurleCard</class>
+    </persistence-unit>
+</persistence>
